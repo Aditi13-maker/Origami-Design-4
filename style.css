@@ -67,20 +67,20 @@ body{
     font-family:fantasy;
 }
 
-.origami:hover{
-    transform:scale(1.2);
+.origami p{
+    position:absolute;
+    top:70%;
+    left:50%;
+    color:black;
+    transform:translate(-50%,-50%);
+    opacity:0;
 }
 
 .origami:hover img{
-    transform:scale(1.2);
+    opacity:0.3;
 }
-.origami p{
-    position:absolute;
-    top:10%;
-    left:40%;
-    color:rgb(0, 0, 0);
-    transform:translate(-50%,-50%);
-    opacity:0;
+.origami:hover p{
+    opacity:1;
 }
 
 
