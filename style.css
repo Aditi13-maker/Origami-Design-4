@@ -1,0 +1,141 @@
+h1{color:rgb(0, 0, 0)}
+ /**{border:solid black}*/
+
+ .header{
+    border-radius:5px;
+    background-color: black;
+    display :flex;
+    justify-content:space-between;
+}
+.header:hover{
+    transform:scale(1.2)
+}
+.bodyback{
+ 
+    background-color:black
+    
+}
+.bodyback p{
+    position:absolute;
+    top:10%;
+    left:40%;
+    color:rgb(255, 255, 255);
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.bodyback:hover p{
+    opacity:1;
+
+}
+.bodyback:hover img{
+    opacity:0.3;
+}
+.menu{
+    display :flex;
+    justify-content:space-between;
+    background-color: black;
+    padding:0.5px;
+    font-size:10px;
+    font-family:sans-serif;
+    font-weight:400;
+    color:white;
+}
+body{
+    background-color:rgb(204, 204, 204);
+    color:white;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;  
+}
+.grid img{
+   border:2px solid black;
+   border-radius:50px;
+}
+.origami {
+    border-radius:50px;
+    margin-left:50px;
+    margin-bottom: 50px;
+    background-color:white;
+    color:black;
+    width:310px;
+    font-family:fantasy;
+}
+
+.origami:hover{
+    transform:scale(1.2);
+}
+
+.origami:hover img{
+    transform:scale(1.2);
+}
+.origami p{
+    position:absolute;
+    top:10%;
+    left:40%;
+    color:rgb(0, 0, 0);
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+
+.origami1 {
+    border-radius:10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    background-color:white;
+    color:black;
+    width:310px;
+    font-family:fantasy;
+}
+.origami1:hover{
+    transform:scale(1.2);
+}
+
+.origami1:hover img{
+    transform:scale(1.2);
+}
+
+.origami1 p{
+    position:absolute;
+    top:10%;
+    left:40%;
+    color:rgb(0, 0, 0);
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.origami1:hover p{
+    opacity:1;
+
+}
+
+
+.origami2 {
+    border-radius:50px;
+    margin-left:10px;
+    margin-bottom: 50px;
+    margin-top:50px;
+    margin-right: 460px;
+    background-color:white;
+    color:black;
+    width:310px;
+    font-family:fantasy;
+}
+
+.origami2:hover img{
+    transform:scale(1.2);
+
+}
+
+a:link{
+    color:aqua
+}
+
+a:visited{
+    color:aquamarine;
+}
